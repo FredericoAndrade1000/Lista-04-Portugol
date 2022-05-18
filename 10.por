@@ -6,7 +6,7 @@ programa
 		inteiro sexo, quantidadeHomens = 0, quantidadeMulheres = 0
 		real altura, menorAltura = 0.0, maiorAltura = 0.0, mediaAlturaHomens = 0.0, mediaAlturaMulheres = 0.0
 
-		para (inteiro i = 1; i <- 10; i++) {
+		para (inteiro i = 1; i <= 10; i++) {
 			escreva ("**Pessoa ", i, "**\n")
 			escreva("Altura: ")
 			leia(altura)
